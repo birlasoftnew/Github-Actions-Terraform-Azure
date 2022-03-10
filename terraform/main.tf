@@ -1,7 +1,7 @@
 resource "github_repository" "aigi-infra-iac-github" {
   name        = "aigi-infra-iac-github"
   description = "My awesome codebase"
-  auto_init        = "true"
+  #auto_init        = "true"
 
   visibility = "public"
 
