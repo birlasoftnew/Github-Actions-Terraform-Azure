@@ -1,4 +1,4 @@
-/*terraform {
+terraform {
   required_providers {
     github = {
       source  = "integrations/github"
@@ -9,8 +9,8 @@
 
 # Configure the GitHub Provider
 provider "github" {
-  token = 'NEW_TOKEN'
-}*/
+  token = "NEW_TOKEN"
+}
 
 # Add a user to the organization
 #resource "github_membership" "membership_for_user_x" {
