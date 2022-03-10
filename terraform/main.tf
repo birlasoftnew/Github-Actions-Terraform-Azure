@@ -5,10 +5,10 @@ resource "github_repository" "aigi-infra-iac-github" {
 
   visibility = "public"
 
-  template {
+  /*template {
     owner      = "github"
     repository = "jenkins"
-  }
+  }*/
 }
 
 /*terraform {
