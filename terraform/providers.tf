@@ -9,7 +9,7 @@ terraform {
 
 # Configure the GitHub Provider
 provider "github" {
-  features {}
+  #features {}
   #token = 'GITHUB_TOKEN'
 }
 
