@@ -8,7 +8,9 @@ terraform {
 }
 
 # Configure the GitHub Provider
-provider "github" {}
+provider "github" {
+  token = 'NEW_TOKEN'
+}
 
 # Add a user to the organization
 #resource "github_membership" "membership_for_user_x" {
