@@ -5,8 +5,8 @@ resource "github_repository" "aigi-infra-iac-github" {
   visibility = "public"
 
   template {
-    owner      = "github"
-    repository = "terraform-module-template"
+    owner      = "karthikvemula"
+    repository = "welcome"
   }
 }
 
