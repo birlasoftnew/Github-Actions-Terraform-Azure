@@ -13,7 +13,7 @@ provider "github" {
 }
 
 # Add a user to the organization
-resource "github_membership" "membership_for_admins" {
+resource "github_membership" "birlasoftnew" {
   #count    = "${length(var.gh_admins)}"
   username = "karthikvemula"
   role     = "admin"
