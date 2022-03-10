@@ -1,4 +1,4 @@
-resource "github_repository" "aigi-infra-iac-github-resource" {
+resource "github_repository" "aigi-infra-iac-github" {
   name        = "aigi-infra-iac-github"
   description = "My awesome codebase"
 
