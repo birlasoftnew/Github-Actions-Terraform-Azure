@@ -1,4 +1,16 @@
-terraform {
+resource "github_repository" "example" {
+  name        = "example"
+  description = "My awesome codebase"
+
+  visibility = "public"
+
+  template {
+    owner      = "github"
+    repository = "terraform-module-template"
+  }
+}
+
+/*terraform {
   backend "azurerm" {
     resource_group_name  = "TerraformDemo"
     storage_account_name = "terraformcodeops"
@@ -16,4 +28,4 @@ module "SA" {
   sname    = var.sname
   rgname   = var.rgname
   location = var.location
-}
+}*/
