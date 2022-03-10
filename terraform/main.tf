@@ -1,11 +1,12 @@
 resource "github_repository" "aigi-infra-iac-github" {
   name        = "aigi-infra-iac-github"
   description = "My awesome codebase"
+  auto_init        = "true"
 
   visibility = "public"
 
   template {
-    owner      = "kartheekvemula001@gmail.com"
+    owner      = "github"
     repository = "jenkins"
   }
 }
