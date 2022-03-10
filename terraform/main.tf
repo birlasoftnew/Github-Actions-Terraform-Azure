@@ -1,14 +1,14 @@
-resource "github_repository" "example" {
-  name        = "example"
+resource "github_repository" "aigi-infra-iac-github-resource" {
+  name        = "aigi-infra-iac-github"
   description = "My awesome codebase"
 
   visibility = "public"
 
-  template {
+  /*template {
     owner      = "github"
     repository = "terraform-module-template"
   }
-}
+}*/
 
 /*terraform {
   backend "azurerm" {
