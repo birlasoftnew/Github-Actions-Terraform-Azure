@@ -9,16 +9,17 @@ terraform {
 
 # Configure the GitHub Provider
 provider "github" {
+  features {}
   #token = 'GITHUB_TOKEN'
 }
 
 # Add a user to the organization
-resource "github_membership" "birlasoftnew" {
+/*resource "github_membership" "birlasoftnew" {
   #count    = "${length(var.gh_admins)}"
   username = "karthikvemula"
   role     = "admin"
   # ...
-}
+}*/
 /*terraform {
   required_providers {
     azurerm = {
