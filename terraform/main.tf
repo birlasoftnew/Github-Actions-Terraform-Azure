@@ -5,8 +5,8 @@ resource "github_repository" "aigi-infra-iac-github" {
   visibility = "public"
 
   template {
-    owner      = "karthikvemula"
-    repository = "welcome"
+    owner      = "kartheekvemula001@gmail.com"
+    repository = "jenkins"
   }
 }
 
