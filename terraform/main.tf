@@ -4,11 +4,11 @@ resource "github_repository" "aigi-infra-iac-github" {
 
   visibility = "public"
 
-  /*template {
+  template {
     owner      = "github"
     repository = "terraform-module-template"
   }
-}*/
+}
 
 /*terraform {
   backend "azurerm" {
