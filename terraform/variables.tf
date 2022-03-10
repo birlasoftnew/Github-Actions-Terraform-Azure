@@ -1,4 +1,4 @@
-variable "rgname" {
+/*variable "rgname" {
   description = "Resource Group Name"
   default     = "github-action1"
   type        = string
@@ -11,4 +11,4 @@ variable "location" {
 variable "sname" {
   description = "Azure Storage Account"
   type        = string
-}
+}*/
