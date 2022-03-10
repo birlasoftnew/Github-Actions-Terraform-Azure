@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     github = {
-     # source  = "integrations/github"
+      source  = "integrations/github"
       version = "~> 4.0"
     }
   }
@@ -13,9 +13,12 @@ provider "github" {
 }
 
 # Add a user to the organization
-#resource "github_membership" "membership_for_user_x" {
+resource "github_membership" "membership_for_admins" {
+  #count    = "${length(var.gh_admins)}"
+  username = "karthikvemula"
+  role     = "admin"
   # ...
-#}
+}
 /*terraform {
   required_providers {
     azurerm = {
