@@ -1,7 +1,7 @@
 variable "reponame" {
   description = "Repository Name"
   default     = "testrepo"
-  type        = map
+  type        = list(string)
 }
 /*variable "location" {
   description = "Azure location"
