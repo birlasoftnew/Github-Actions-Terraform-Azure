@@ -1,6 +1,6 @@
 variable "reponame" {
   description = "Repository Name"
-  default     = ["testrepo"]
+  default     = ["testrepo","testrepo1"]
   type        = list(string)
 }
 /*variable "location" {
