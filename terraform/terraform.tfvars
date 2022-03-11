@@ -1,3 +1,3 @@
-reponame   = ["testnew","testold"]
-/*location = "East US"
+/*reponame   = ["testnew","testold"]
+location = "East US"
 sname    = "devopsguru190"*/
