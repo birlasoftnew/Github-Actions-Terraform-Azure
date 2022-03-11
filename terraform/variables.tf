@@ -1,9 +1,9 @@
-/*variable "rgname" {
-  description = "Resource Group Name"
-  default     = "github-action1"
+variable "reponame" {
+  description = "Repository Name"
+  default     = "testrepo"
   type        = string
 }
-variable "location" {
+/*variable "location" {
   description = "Azure location"
   default     = "East US"
   type        = string
