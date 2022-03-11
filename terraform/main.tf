@@ -1,5 +1,5 @@
 resource "github_repository" "aigi-infra-iac-github" {
-  name        = "aigi-infra-iac-github6"
+  name        = "var.reponame"
   description = "My awesome codebase"
   #auto_init        = "true"
 
