@@ -8,5 +8,8 @@ terraform {
 }
 
 provider "artifactory" {
+  url = "https://jfrogaks123.jfrog.io"
+  username = "karthikvemula189@gmail.com"
+  password = "Thankyou@123"
   # Configuration options
 }
